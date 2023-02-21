@@ -1,0 +1,219 @@
+.login-otp-form-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e9e6f8ef;
+  }
+  @media screen and (max-width: 767px) {
+    .login-otp-form-main-container {
+      padding: 10px;
+    }
+  }
+  
+  .login-otp-form-container {
+    box-shadow: 1px 10px 15px #bababa;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 40px;
+  }
+  @media screen and (max-width: 767px) {
+    .login-otp-form-container {
+      padding: 30px;
+    }
+  }
+  
+  .login-otp-form-title-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    background-color: #0a3cb0;
+    height: 36px;
+    width: 34px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  
+  .logo-icon {
+    color: #fff;
+    height: 24px;
+    width: 24px;
+  }
+  
+  .login-otp-form {
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 20px;
+  }
+  
+  .login-otp-form-title {
+    font-size: 20px;
+    font-weight: 650;
+    color: #5a5a5a;
+  }
+  @media screen and (max-width: 767px) {
+    .login-otp-form-title {
+      font-size: 18px;
+    }
+  }
+  
+  .login-otp-form-description {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 767px) {
+    .login-otp-form-description {
+      font-size: 14px;
+    }
+  }
+  
+  .edit-number-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 767px) {
+    .edit-number-container {
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0px;
+    }
+  }
+  
+  .edit-number {
+    margin-bottom: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 767px) {
+    .edit-number {
+      font-size: 12px;
+      margin-top: 2px;
+    }
+  }
+  
+  .login-otp-input-fields-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .login-otp-input-field {
+    outline: none;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 12px;
+    padding-left: 20px;
+    width: 50px;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 767px) {
+    .login-otp-input-field {
+      padding: 6px;
+      padding-left: 15px;
+      width: 36px;
+      margin-right: 0px;
+      font-size: 14px;
+    }
+  }
+  
+  .login-otp-resend-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .otp-resend {
+    color: #0a3cb0;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 767px) {
+    .otp-resend {
+      font-size: 14px;
+    }
+  }
+  
+  .login-otp-input-field:invalid ~ .error-message {
+    display: block;
+  }
+  
+  .login-otp-agree-inputbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .forgot-password {
+    text-decoration: none;
+  }
+  
+  .otp-btn {
+    height: 34px;
+    background-color: #a59bf0;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .login-otp-button {
+    background-color: #0a3cb0;
+    transition-duration: 0.8s;
+  }
+  
+  .sign-up-line {
+    margin-top: 10px;
+    color: rgb(155, 155, 155);
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .sign-up-link {
+    color: #0f4ee1;
+    margin-left: 6px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .signup-logos-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .facebook {
+    color: #0f4ee1;
+  }
+  
+  .twitter {
+    color: #34a1ee;
+  }
+  
+  .signup-logo {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    font-size: 12px;
+    color: #ef3f3f;
+    display: none;
+  }
+  
