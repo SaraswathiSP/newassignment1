@@ -125,9 +125,9 @@ class LoginOTP extends Component {
               <p className="login-otp-form-description text-secondary">
                 Code sent to 998888xxxxx
               </p>
-              <a href="/loginphone" className="edit-number">
+              <Link to="/loginphone" className="edit-number">
                 Edit Number
-              </a>
+              </Link>
             </div>
             <form className="form" onSubmit={this.submitForm}>
               <div className="login-otp-input-fields-container">
