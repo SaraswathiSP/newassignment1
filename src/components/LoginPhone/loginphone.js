@@ -97,9 +97,9 @@ class LoginPhone extends Component {
                     Remember me
                   </label>
                 </div>
-                <Link to="/forgotpassword" className="forgot-password">
+                <a href="/forgotpassword" className="forgot-password">
                   Forgot Password?
-                </Link>
+                </a>
               </div>
               <button type="submit" className="btn btn-primary w-100 mt-2 mb-2">
                 LOGIN
@@ -107,9 +107,9 @@ class LoginPhone extends Component {
               <div className="login-phone-agree-inputbox-container d-flex ">
                 <span id="agree" className="sign-up-line text-secondary">
                   New to the Community?
-                  <Link to="/login" className="sign-up-link">
+                  <a href="/login" className="sign-up-link">
                     Create Account
-                  </Link>
+                  </a>
                 </span>
               </div>
             </form>

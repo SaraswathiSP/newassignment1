@@ -1,6 +1,6 @@
 import { Component } from "react";
 import Cookies from "js-cookie";
-import { Link } from "react-router-dom";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 // import {Redirect} from 'react-router-dom'
 import { FaGraduationCap, FaFacebook, FaTwitter } from "react-icons/fa";

@@ -82,9 +82,9 @@ class ForgotPassword extends Component {
                 LOGIN
               </button>
               <div className="back-to-login-container">
-                <Link to="/login" className="back-to-login">
+                <a href="/login" className="back-to-login">
                   BACK TO LOGIN
-                </Link>
+                </a>
               </div>
             </form>
           </div>

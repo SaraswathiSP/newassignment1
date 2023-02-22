@@ -186,9 +186,9 @@ class Login extends Component {
               <div className="agree-inputbox-container d-flex ">
                 <span id="agree" className="sign-up-line text-secondary">
                   Member of the Community?
-                  <Link to="/signin" className="sign-up-link">
+                  <a href="/signin" className="sign-up-link">
                     Sign IN
-                  </Link>
+                  </a>
                 </span>
               </div>
             </form>
